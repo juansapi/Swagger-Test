@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "PruebaTecnica.Controllers.UsersController",
+    "Method": "RegistrarUsuario",
+    "RelativePath": "api/users",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userRequest",
+        "Type": "PruebaTecnica.Models.UserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PruebaTecnica.Controllers.UsersController",
+    "Method": "ObtenerTodosLosUsuarios",
+    "RelativePath": "api/users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
